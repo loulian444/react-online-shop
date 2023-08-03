@@ -29,3 +29,7 @@ a {
 a:hover {
   color: blue;
 }
+
+.thumbnail {
+  width: 100%;
+}
