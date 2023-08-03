@@ -1,11 +1,14 @@
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Router from "./components/Router";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>Online Shop</h1>
+      <Navbar />
+      <Router />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
