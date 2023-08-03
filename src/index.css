@@ -5,9 +5,15 @@
 #navbar {
   align-items: center;
   justify-content: space-between;
+  background-color: bisque;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: solid 5px;
 }
 
-#navbar > section > a {
+#navbar > a {
   margin: 10px;
 }
 
