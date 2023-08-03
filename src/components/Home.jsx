@@ -20,7 +20,7 @@ export const Home = () => {
 
   return (
     <>
-      <Shop productsList={productsList} />
+      <Shop productsList={productsList} apiUrl={apiUrl} />
     </>
   );
 };
