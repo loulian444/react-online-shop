@@ -38,4 +38,10 @@ a:hover {
 
 .thumbnail {
   width: 100%;
+  height: 200px;
+  object-fit: fill;
+}
+
+.itemHeader {
+  align-items: center;
 }
